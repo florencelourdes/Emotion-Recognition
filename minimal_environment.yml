@@ -1,0 +1,22 @@
+name: cs583-no-gpu
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  # - pytorch-cuda=12.1
+  - pydantic
+  - torchvision
+  - torchaudio
+  - numpy
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+      - kagglehub==0.3.13
+      - pydantic_settings
+      - scikit-learn
